@@ -970,8 +970,8 @@ audio {
 
 .bannar {
 	
-        height: 250px;
-	width: 250px;	
+    height: 200px;
+	width: 250px;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -990,25 +990,22 @@ audio {
 	-ms-transform:translate(0px,0px);
 	animation: bannar_come linear 6s;
 	transform:translate(0px,0px);
-#wrapper{
-    overflow:auto;
+
+
 }
-.banner-come2{
-	
-  position: absolute;
-    left: 5px;
-bottom:5px;
-	float:left
+	.banner-come2{
+	float: left;
+  position: sticky;
+    left: 3px;
+	bottom:5px;
 	
 	}
-*gif2{
-	position:absolute;
-        float:right;
-	bottom:2px;
-	max-width:½50;
-	max-height:½70
+.gif2{
+	float: right ;
+	right: 3px ;
+	bottom: 5px ;
 	}	
-}
+
 @-webkit-keyframes bannar_come {
 	0%{
 		-webkit-transform:translate(0px,-1000px);
