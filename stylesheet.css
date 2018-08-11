@@ -990,6 +990,9 @@ audio {
 	-ms-transform:translate(0px,0px);
 	animation: bannar_come linear 6s;
 	transform:translate(0px,0px);
+#wrapper{
+    overflow:auto;
+}
 .banner-come2{
 	
   position: absolute;
