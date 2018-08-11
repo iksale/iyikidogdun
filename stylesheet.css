@@ -989,6 +989,13 @@ audio {
 	-ms-transform:translate(0px,0px);
 	animation: bannar_come linear 6s;
 	transform:translate(0px,0px);
+.banner-come2{
+	
+  position: relative;
+    left: -20px;
+	
+	
+	}	
 }
 @-webkit-keyframes bannar_come {
 	0%{
