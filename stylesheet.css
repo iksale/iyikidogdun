@@ -995,12 +995,15 @@ audio {
   position: absolute;
     left: 5px;
 bottom:5px;
+	float:left
 	
 	}
 *gif2{
 	position:absolute;
-	right: 5px ;
-	bottom: 5px ;
+        float:right;
+	bottom:2px;
+	max-width:½50;
+	max-height:½70
 	}	
 }
 @-webkit-keyframes bannar_come {
