@@ -970,7 +970,8 @@ audio {
 
 .bannar {
 	
-        height: %50;	
+        height: 250px;
+	weight: 250px;	
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -991,10 +992,14 @@ audio {
 	transform:translate(0px,0px);
 .banner-come2{
 	
-  position: relative;
+  position: sticky;
     left: -20px;
+	bottom:20px;
 	
-	
+	}
+*gif2{
+	right: -20px ;
+	bottom: 20px ;
 	}	
 }
 @-webkit-keyframes bannar_come {
